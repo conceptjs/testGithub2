@@ -1,0 +1,34 @@
+{
+  "uri" : "local://C-BcaQQIw48ty4hVhVfuqC/",
+  "name" : "testGithub2 (Repository)",
+  "category" : "",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/taozhan3/testGithub2/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "conceptName" : "Repo Root Lambda",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "local://MaRqQOWoQlBaH4fTbACbt7/",
+      "conceptName" : "Test page"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  }, {
+    "var" : "page"
+  } ],
+  "isLambda" : false
+}
