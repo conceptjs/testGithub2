@@ -1,0 +1,34 @@
+{
+  "uri" : "local://S7BnahgZ5FAOvaiI00M46C/",
+  "name" : "test.js",
+  "category" : "js",
+  "parent" : "local://C-BcaQQIw48ty4hVhVfuqC/",
+  "pname" : "testGithub2 (Repository)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_javascriptResource_js",
+    "expr" : {
+      "str" : "// Enter Javascript code\nalert(\"foo\");"
+    }
+  }, {
+    "name" : "_javascriptResource_fileName",
+    "expr" : {
+      "str" : "test.js"
+    }
+  }, {
+    "name" : "javascriptResource",
+    "expr" : {
+      "concept" : "/common/core/nK_9eZMUDp8T6qqr7t5k67/",
+      "conceptName" : "Javascript Resource",
+      "bindings" : {
+        "js" : "_javascriptResource_js",
+        "fileName" : "_javascriptResource_fileName"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "javascriptResource"
+  } ],
+  "isLambda" : false
+}
