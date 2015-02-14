@@ -3,20 +3,18 @@
   "name" : "Test page",
   "category" : "",
   "parent" : "local://C-BcaQQIw48ty4hVhVfuqC/",
-  "pname" : "testGithub2 (Repository)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
     "name" : "htmlTemplate",
     "expr" : {
-      "str" : "<html>\n    <body>\n        <h1>This is a test page for testGithub2!</h1>\n    </body>\n</html>",
+      "str" : "<html>\n    <body>\n        <h2>This is a test page for testGithub2!</h2>\n    </body>\n</html>",
       "strEditMode" : "html"
     }
   }, {
     "name" : "page",
     "expr" : {
       "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
-      "conceptName" : "HTML Page",
       "bindings" : {
         "html" : "htmlTemplate"
       }
@@ -24,6 +22,5 @@
   } ],
   "isas" : [ {
     "var" : "page"
-  } ],
-  "isLambda" : false
+  } ]
 }
